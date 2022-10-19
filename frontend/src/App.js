@@ -36,7 +36,7 @@ const GuestRoute = ({children ,...rest}) => {
             <Redirect to = {
                 {
                     pathname : '/rooms',
-                    state :{from:'location'}
+                    state : {from: 'http://localhost:3000/authenticate'}
                 }}
             />
             : (
