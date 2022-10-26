@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({path:'D:/RTC_App_Version/backend/env'});
 const express = require('express');
 const app = express();
 
